@@ -19,6 +19,13 @@ const DUMMY_PLACES = [
 router.get("/:pid", (req, res, next) => {
   const placeId = req.params.pid;
   const place = DUMMY_PLACES.find((p) => p.id === placeId);
+
+  if (!place) {
+    const error = new Error("Could not find a place for the provided id.");
+    error.code = 404;
+    throw error; // can only be used with sync code, not with async code
+  }
+
   res.json({ place });
 });
 
@@ -28,6 +35,12 @@ router.get("/user/:uid", (req, res, next) => {
   const place = DUMMY_PLACES.find((p) => {
     return p.creator === userId;
   });
+
+  if (!place) {
+    const error = new Error("Could not find a place for the provided user id.");
+    error.code = 404;
+    return next(error); //can be used with both async and sync code.
+  }
 
   res.json({ place });
 });
