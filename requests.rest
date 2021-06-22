@@ -14,12 +14,24 @@ Content-Type: application/json
 
 ###
 
+PATCH  http://localhost:5000/api/places/p1
+Content-Type: application/json
+
+{
+    
+    "title":"New York Stock Exchange updated",
+    "description":"Where the money lives"
+  
+}
+
+###
+
 GET http://localhost:5000/api/places/user/u1
 Content-Type: application/json
 
 ###
 
-GET http://localhost:5000/api/places/6d0368f4-7bc2-4c5c-b426-4469f6c6aefd
+GET http://localhost:5000/api/places/p1
 Content-Type: application/json
 
 ###
