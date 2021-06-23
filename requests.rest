@@ -20,7 +20,8 @@ Content-Type: application/json
 {
     
     "title":"New York Stock Exchange updated",
-    "description":"Where the money lives"
+    "description":"Where the money lives",
+    
   
 }
 
