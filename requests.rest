@@ -5,11 +5,7 @@ Content-Type: application/json
     "title":"New York Stock Exchange",
     "description":"Where the money lives",
     "creator":"u2",
-    "address" : "11 Wall St, New York, NY 11005",
-    "coordinates":{
-        "lat":40.2315678,
-        "lng":-74.9235489
-    }
+    "address" : "11 Wall St, New York, NY 11005"
 }
 
 ###
