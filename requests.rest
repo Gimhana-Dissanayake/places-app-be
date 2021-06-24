@@ -20,7 +20,7 @@ Content-Type: application/json
 {
     
     "title":"New York Stock Exchange updated",
-    "description":"Where the money lives",
+    "description":"Where the money lives"
     
   
 }
@@ -52,7 +52,7 @@ Content-Type: application/json
 
 {
    "name":"Manu",
-   "email":"test@gmail.com",
+   "email":"Test@gmail.com",
    "password":"testing"
 }
 
