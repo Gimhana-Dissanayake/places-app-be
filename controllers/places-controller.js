@@ -21,7 +21,10 @@ const getPlaceById = async (req, res, next) => {
   }
 
   if (!place) {
-    const error = HttpError("Could not find a place for the provided id.", 404); // can only be used with sync code, not with async code
+    const error = new HttpError(
+      "Could not find a place for the provided id.",
+      404
+    ); // can only be used with sync code, not with async code
     return next(error);
   }
 
@@ -40,7 +43,7 @@ const getPlacesByUserId = async (req, res, next) => {
       "Fetching places failed, please try again later",
       500
     );
-    return next(error);
+    return next(err);
   }
 
   if (!places || places.length === 0) {

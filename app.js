@@ -38,7 +38,9 @@ app.use((error, req, res, next) => {
 });
 
 mongoose
-  .connect("")
+  .connect(
+    "mongodb+srv://gimmy:04gEd1dHPHail7BM@cluster1.cifp8.mongodb.net/places?retryWrites=true&w=majority"
+  )
   .then(() => {
     app.listen(5000);
   })
