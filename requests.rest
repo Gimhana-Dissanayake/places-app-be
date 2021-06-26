@@ -23,7 +23,7 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:5000/api/places/60d6b69d4c9cc72594edeaf3
+DELETE http://localhost:5000/api/places/60d7003d3e38b23d7cb420e3
 Content-Type: application/json
 
 ###
