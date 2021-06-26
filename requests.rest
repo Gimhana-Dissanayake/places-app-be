@@ -10,12 +10,12 @@ Content-Type: application/json
 
 ###
 
-PATCH  http://localhost:5000/api/places/p1
+PATCH  http://localhost:5000/api/places/60d69e2689680135703698a0
 Content-Type: application/json
 
 {
     
-    "title":"New York Stock Exchange updated",
+    "title":"Colombo",
     "description":"Where the money lives"
     
   
