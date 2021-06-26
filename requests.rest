@@ -4,7 +4,7 @@ Content-Type: application/json
 {
     "title":"New York Stock Exchange",
     "description":"Where the money lives",
-    "creator":"u2",
+    "creator":"60d6fff53e38b23d7cb420dd",
     "address" : "11 Wall St, New York, NY 11005"
 }
 
@@ -48,9 +48,8 @@ Content-Type: application/json
 
 {
    "name":"Loren",
-   "email":"Tessst@gmail.com",
-   "password":"tefafafafa",
-   "places":"p1"
+   "email":"Test@gmail.com",
+   "password":"tefafafafa"
 }
 
 ###
