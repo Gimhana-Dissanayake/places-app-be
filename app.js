@@ -48,7 +48,9 @@ app.use((error, req, res, next) => {
 });
 
 mongoose
-  .connect("")
+  .connect("mongodb://localhost:27017/places", {
+    useNewUrlParser: true,
+  })
   .then(() => {
     app.listen(5000);
   })
