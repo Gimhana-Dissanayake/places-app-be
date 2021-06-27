@@ -4,7 +4,7 @@ Content-Type: application/json
 {
     "title":"New York Stock Exchange new",
     "description":"Where the money lives",
-    "creator":"60d6f2a46d721e3e24711c5b",
+    "creator":"60d8904e6115df0d90a485a0",
     "address" : "11 Wall St, New York, NY 11005"
 }
 
